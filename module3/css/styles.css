@@ -43,18 +43,22 @@ body {
   margin: 0px;
   font-weight: bold;
   text-align: center;
-  vertical-align: middle;
 }
 
 #nav-list a {
   font-size: 1.25em;
   font-weight: bold;
   text-align: center;
+  color: #34495E;
 }
 
 #nav-list a:hover, #nav-list a:active {
   background-color: #566573;
   color: #FFF;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #566573;
+  background-color: #F1F1F1;
 }
 h2 {
  margin-top: 20px;
